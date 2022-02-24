@@ -1,0 +1,46 @@
+1. Why are functions advantageous to have in your programs?
+  -Decomposing complex problems into simpler pieces.
+  -Inhance readibility of program.
+  -Reuse of code.
+  -Information hiding.
+
+2. When does the code in a function run: when it's specified or when it's called?
+   A function definition does nothing by itself. To use a function we must call it. 
+   function body statement will be executed when we call greet() function.
+
+3. What statement creates a function?
+   Def statement is used to create function.
+   
+4. What is the difference between a function and a function call?
+   function has a executable code which has def clause 
+   & calling function is evaluates the function's return value.
+   
+5. How many global scopes are there in a Python program? How many local scopes?
+   there is one global scope & local scope created whenever function is created 
+   
+6. What happens to variables in a local scope when the function call returns?
+   local variable detroyes & it will not remeber values of variable.
+   
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+   Return value is value that function evaluates.yes it can be used as expression.
+  
+8. If a function does not have a return statement, what is the return value of a call to that function?
+   Then return value will be none.
+   
+9. How do you make a function variable refer to the global variable?
+   The "global" statemnet will force variable to refer as gloabl variable. 
+   
+10. What is the data type of None?
+   Datatype for None is none datatype 
+  
+11. What does the sentence import areallyourpetsnamederic do?
+    "areallyourpetsnamederic" is module name in this statement & "import" statemnet is importing this module.
+    
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+    spam.bacon()
+    
+13. What can you do to save a programme from crashing if it encounters an error?
+    write "TRY clause" where u might think that it cause error.
+    
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+    the line code which might cause error that goes into try clause.
